@@ -1,0 +1,64 @@
+.nav{
+  min-height: 8vh;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.firstPartContainer{
+  min-height: 89vh;
+  background-size: cover;
+  margin-top: 8vh;
+}
+
+.logoResize{
+  width: 6vh;
+}
+
+.bg-overlay{
+  background: rgba(224, 129, 39, 0.11);
+  /* background: rgb(0,0,0); */
+}
+
+.bg-imgFirstPart{
+  background: url("../images/natural-cosmetics-4004908_1920.jpg");
+}
+
+.card-logo{
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.aboutUsContainer{
+  min-height: 60vh;
+  background: whitesmoke;
+  /* background: red; */
+}
+
+.bg-card-about{
+  position: relative;
+  min-height: 40vh;
+  border-radius: 2px;
+  border-style:solid;
+  border-color: #ffd27e;
+  /* #ffcb69 */
+  border-width: 1px;
+}
+
+.bg-card1-about{
+  background: url("../images/food-3425223_1280.jpg");
+}
+
+
+.div-hidden{
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;  
+  left: 0; 
+  background-color: bisque;
+  transition: opacity 0.9s ease-in-out;
+}
+
+.show-hover:hover .div-hidden{
+  opacity: 1;
+  display: block;
+}
